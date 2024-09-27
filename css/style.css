@@ -3,6 +3,7 @@
 
 @import url("https://use.typekit.net/lhk2cwi.css");
 
+/* includes a secondary very similar background made from an image that I didn't like as much in the end*/
 body{
     background-image: linear-gradient(180deg,#8f91dc,#3860E9);
     /*background-image: url(../img/background.svg);*/
@@ -16,7 +17,6 @@ header{
     margin-top: 10%;
 }
     header img:hover{
-        /*background-color: #D92D87;*/
         opacity: .5;
         transform: scale(1.05);
     }
@@ -27,12 +27,12 @@ header{
         border-style: solid;
     }
 
-    /* logo does not size down when screen does*/
+   
+    /* wanted to try making the border of nav a gradient to compliment the gradient inside, could not figure it out though*/
 nav{
     background-image: linear-gradient(180deg, #3860E9, #D92D87);
-    /*border-image-source: linear-gradient(180deg,#D92D87,#3860E9);
-    border-width: 3px;
-    border-style: solid;*/
+    /*border-image-source: linear-gradient(180deg,#D92D87,#3860E9);*/
+    border:#FFFFFF 2px solid;
     max-width: 25%;
     height: 100vh;
     position: fixed;
@@ -56,7 +56,9 @@ nav img:hover{
         opacity: .5;
         transform: scale(1.05);
 }
-
+img {
+    max-width: 100%;
+}
 main{
     background-color: #3860E9;
     text-align: center;
@@ -233,7 +235,7 @@ footer h3{
     padding: 3%;
     color: #FFFFFF;
     margin: 3%;
-    margin-top: 13%;
+    margin-top: 25%;
     height: 50%; 
 }
 
@@ -244,7 +246,6 @@ footer h3{
         width: 80%;
     }
 
-    /* right image sized incorrectly, images do not size down or flex when screen sizes down*/
 #music{
     background-color: #8F91DC;
     border:#FFFFFF solid 3px;
@@ -254,6 +255,7 @@ footer h3{
     margin: 3%;
     img{
         margin: 3%;
+        width: 40%;
     }
 }
 
@@ -267,7 +269,7 @@ footer h3{
 
 }
 
-/*images do not size down or flex when screen sizes down*/
+/*image only stayed inside the box when the screen gets smaller when the width percentage is very small, but this distorts the image excessively, so I decided to leave it*/
 #digi{
     background-color: #8F91DC;
     border:#FFFFFF solid 3px;
@@ -277,6 +279,7 @@ footer h3{
     margin: 3%;
     img{
         margin: 3%;
+        width: 100%;
     }
 }
 
