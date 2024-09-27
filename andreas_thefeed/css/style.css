@@ -1,0 +1,289 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url("https://use.typekit.net/lhk2cwi.css");
+
+body{
+    background-image: linear-gradient(180deg,#8f91dc,#3860E9);
+    /*background-image: url(../img/background.svg);*/
+    margin: 0 auto;
+    max-width: 100%;
+    font-family: "Azeret Mono", monospace;
+} 
+
+header{
+    text-align: center;
+    margin-top: 10%;
+}
+    header img:hover{
+        /*background-color: #D92D87;*/
+        opacity: .5;
+        transform: scale(1.05);
+    }
+
+    #splash{
+        border-color: #D92D87;
+        background: linear-gradient(#3860E9,#8F91DC);
+        border-style: solid;
+    }
+
+    /* logo does not size down when screen does*/
+nav{
+    background-image: linear-gradient(180deg, #3860E9, #D92D87);
+    /*border-image-source: linear-gradient(180deg,#D92D87,#3860E9);
+    border-width: 3px;
+    border-style: solid;*/
+    max-width: 25%;
+    height: 100vh;
+    position: fixed;
+    padding: 3%;
+    top: 0px;
+    left: 0px;
+    overflow-y: scroll;
+
+        h1{
+            font-family: "ocr-b-std", monospace;
+            font-size: 34;
+        }
+
+        h3{
+            font-size: 24;
+            font-weight: 450;
+        }
+}
+
+nav img:hover{
+        opacity: .5;
+        transform: scale(1.05);
+}
+
+main{
+    background-color: #3860E9;
+    text-align: center;
+    padding: 3%;
+    width: 60%;
+     margin-left: 30%;
+     margin-top: 5%;
+     margin-right: 5%;
+     margin-bottom: 5%;
+    border:#D92D87 solid 3px;
+    border-radius: 15px 15px 0 0;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+    main img{
+        border: #D92D87 solid 3px;
+        border-radius: 15px 15px 0 0;
+        max-width: 75%;
+    }
+
+    section img:hover{
+        transform: scale(1.05)
+    }   
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+    a:hover{
+    opacity: .5;
+    }
+
+
+footer{
+        padding: 2%
+    }
+
+footer h3{
+    text-align: right;
+}
+    
+#names{
+    background-color: #8F91DC;
+    border: solid, 3px, #FFFFFF;
+    border-radius: 15px 15px 0 0;
+    margin: 3%;
+}
+
+#title{
+    color: #FFFFFF;
+    font-size: 36;
+    font-family: "ocr-b-std", monospace;
+}
+
+#zoom{
+    background-color: #8F91DC;
+    border: #FFFFFF solid 3px;
+    border-radius: 15px 15px 0 0;
+    padding: 3%;
+    color: #FFFFFF;
+    margin: 3%;
+    width: 50%; 
+    margin: auto;
+}
+
+    #zoom p {
+        width: 85%; 
+        text-align: left;
+        margin: auto;
+        padding: 3%; 
+    }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#notes{
+    background-color: #8F91DC;
+    border: #FFFFFF solid 3px;
+    border-radius: 15px 15px 0 0;
+    padding: 3%;
+    color: #FFFFFF;
+    margin: 3%;
+    margin-top: 13%;
+    height: 50%; 
+}
+
+#bus{
+    background-color: #8F91DC;
+    border: #FFFFFF solid 3px;
+    border-radius: 15px 15px 0 0;
+    padding: 3%;
+    color: #FFFFFF;
+    margin: 3%;
+    height: 50%; 
+}
+
+#spotify{
+    background-color: #8F91DC;
+    border: #FFFFFF solid 3px;
+    border-radius: 15px 15px 0 0;
+    padding: 3%;
+    color: #FFFFFF;
+    margin: 3%;
+    width: 70%; 
+    margin: auto;
+}
+    #spotify p{
+        text-align: left;
+        margin: auto;
+        padding: 3%; 
+        width: 65%;
+    }
+
+#xarts{
+    background-color: #8F91DC;
+    border:#FFFFFF solid 3px;
+    border-radius: 15px 15px 0 0;
+    padding: 3%;
+    color: #FFFFFF;
+    margin: 3%;
+    img{
+        margin: 3%;
+    }
+}
+    #xarts p{
+        text-align: left;
+        margin: auto;
+        padding: 3%; 
+        width: 85%;
+    }
+
+#kusf{
+    background-color: #8F91DC;
+    border: #FFFFFF solid 3px;
+    border-radius: 15px 15px 0 0;
+    padding: 3%;
+    color: #FFFFFF;
+    margin: 3%;
+    width: 50%; 
+    margin: auto;
+}
+    #kusf p{
+        text-align: left;
+        margin: auto;
+        padding: 3%; 
+        width: 80%;
+    }
+
+#depop{
+    background-color: #8F91DC;
+    border: #FFFFFF solid 3px;
+    border-radius: 15px 15px 0 0;
+    padding: 3%;
+    color: #FFFFFF;
+    margin: 3%;
+    height: 50%;
+}
+    #depop p{
+        text-align: left;
+        margin: auto;
+        padding: 3%; 
+        width: 80%;
+    }
+
+#ipod{
+    background-color: #8F91DC;
+    border: #FFFFFF solid 3px;
+    border-radius: 15px 15px 0 0;
+    padding: 3%;
+    color: #FFFFFF;
+    margin: 3%;
+    margin-top: 13%;
+    height: 50%; 
+}
+
+    #ipod p{
+        text-align: left;
+        margin: auto;
+        padding: 3%; 
+        width: 80%;
+    }
+
+    /* right image sized incorrectly, images do not size down or flex when screen sizes down*/
+#music{
+    background-color: #8F91DC;
+    border:#FFFFFF solid 3px;
+    border-radius: 15px 15px 0 0;
+    padding: 3%;
+    color: #FFFFFF;
+    margin: 3%;
+    img{
+        margin: 3%;
+    }
+}
+
+#archive{
+    background-color: #8F91DC;
+    border:#FFFFFF solid 3px;
+    border-radius: 15px 15px 0 0;
+    padding: 3%;
+    color: #FFFFFF;
+    margin: 3%;
+
+}
+
+/*images do not size down or flex when screen sizes down*/
+#digi{
+    background-color: #8F91DC;
+    border:#FFFFFF solid 3px;
+    border-radius: 15px 15px 0 0;
+    padding: 3%;
+    color: #FFFFFF;
+    margin: 3%;
+    img{
+        margin: 3%;
+    }
+}
+
+#friends{
+    border: 3px solid white;
+    border-radius: 15px 15px 0 0;
+    padding: 3%;
+    background-color: #D92D87;
+    text-align: center;
+}
